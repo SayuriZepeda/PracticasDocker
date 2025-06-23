@@ -1,6 +1,6 @@
-const PORT = process.env.PORT || 3000;
+import server from "./server";
 
-server.listen(PORT, () => {
-  console.log(`Server on port ${PORT}`);
-  console.log(`http://localhost:${PORT}`);
+server.listen(3000, () => {
+    console.log('Server on port 3000');
+    console.log('http://localhost:3000');
 });
